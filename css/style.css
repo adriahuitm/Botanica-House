@@ -1,0 +1,128 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+/* LOGIN CARD */
+.login-card{
+    border-radius: 30px;
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(15px);
+    overflow: hidden;
+}
+
+/* LEFT SIDE */
+.branding-section{
+    background: rgba(34, 49, 34, 0.55);
+    color: white;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-img{
+    width: 420px;
+    max-width: 100%;
+}
+
+.brand-description{
+    color: #e8e8e8;
+    line-height: 1.6;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+/* RIGHT SIDE */
+.form-section{
+    background: rgba(255,255,255,0.95);
+    padding: 60px;
+}
+
+.login-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #2f4f2f;
+    margin-bottom: 10px;
+}
+
+.login-text{
+    color: gray;
+    margin-bottom: 30px;
+}
+
+/* INPUT */
+.custom-input{
+    height: 50px;
+    border-radius: 12px;
+    border: 1px solid #dcdcdc;
+}
+
+.custom-input:focus{
+    box-shadow: none;
+    border-color: #6b8e23;
+}
+
+/* BUTTON */
+.login-btn{
+    background: #556b2f;
+    color: white;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.login-btn:hover{
+    background: #3f5221;
+}
+
+/* LINKS */
+.register-link{
+    color: #556b2f;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.small-text{
+    color: gray;
+}
+
+/* MOBILE RESPONSIVE */
+@media(max-width:768px){
+
+    .branding-section{
+        padding: 40px;
+    }
+
+    .form-section{
+        padding: 40px;
+    }
+
+    .logo-img{
+        width: 260px;
+    }
+
+    .demo-account{
+    background: #f3f7ef;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+    border: 1px solid #dfe8d8;
+}
+
+.demo-title{
+    color: #556b2f;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.demo-text{
+    color: #4b5a45;
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+}
+}

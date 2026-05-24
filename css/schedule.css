@@ -1,0 +1,128 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f6f5f2;
+    color: #2e2e2e;
+}
+
+.page-title{
+    font-family: 'Playfair Display', serif;
+    color: #2f4f2f;
+    font-size: 3rem;
+}
+
+.page-text{
+    color: #66735f;
+}
+
+.schedule-card{
+    background: #ffffff;
+    border-radius: 28px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+table th{
+    color: #2f4f2f;
+    font-weight: 600;
+    border-bottom: 1px solid #e6ebe2;
+}
+
+table td{
+    color: #4b5a45;
+    vertical-align: middle;
+}
+
+.schedule-img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 3px solid #edf2e7;
+}
+
+/* STATUS BADGES */
+.status-badge{
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+/* HEALTHY */
+.healthy{
+    background: #dff3e3;
+    color: #2f6b3f;
+}
+
+/* NEEDS ATTENTION */
+.attention{
+    background: #fff1df;
+    color: #b86b00;
+}
+
+/* RECOVERING */
+.recovering{
+    background: #e2edff;
+    color: #315ea8;
+}
+
+/* TABLE ROW EFFECT */
+tbody tr{
+    transition: 0.3s;
+}
+
+tbody tr:hover{
+    background: #f8fbf5;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+    .page-title{
+        font-size: 2.2rem;
+    }
+
+    .schedule-card{
+        padding: 20px;
+    }
+
+    .schedule-img{
+        width: 65px;
+        height: 65px;
+    }
+
+    table{
+        font-size: 0.9rem;
+    }
+
+    /* LOCATION BADGES */
+.location-badge{
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.indoor{
+    background: #e8efe3;
+    color: #3f5f3f;
+}
+
+.outdoor{
+    background: #d8e6c3;
+    color: #556b2f;
+}
+
+.plant-link{
+    color: #2f4f2f;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.plant-link:hover{
+    color: #6b8e23;
+    text-decoration: underline;
+}
+}

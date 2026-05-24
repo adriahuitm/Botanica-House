@@ -1,0 +1,50 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f6f5f2;
+}
+
+.page-title{
+    font-family: 'Playfair Display', serif;
+    color: #2f4f2f;
+    font-size: 3rem;
+}
+
+.page-text{
+    color: #66735f;
+    margin-top: 10px;
+}
+
+.plant-card{
+    border-radius: 30px;
+    background: #ffffff;
+}
+
+.custom-input{
+    height: 52px;
+    border-radius: 14px;
+    border: 1px solid #dcdcdc;
+}
+
+.custom-input:focus{
+    box-shadow: none;
+    border-color: #6b8e23;
+}
+
+.form-label{
+    margin-bottom: 10px;
+    color: #2f4f2f;
+    font-weight: 500;
+}
+
+.add-btn{
+    background: #556b2f;
+    color: white;
+    padding: 14px 35px;
+    border-radius: 14px;
+    border: none;
+    transition: 0.3s;
+}
+
+.add-btn:hover{
+    background: #3f5221;
+}

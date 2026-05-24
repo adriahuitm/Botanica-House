@@ -1,0 +1,212 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f6f5f2;
+    color: #2e2e2e;
+}
+
+.details-card,
+.tracker-card{
+    background: #ffffff;
+    border-radius: 28px;
+    padding: 35px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+}
+
+.plant-main-image{
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.plant-title{
+    font-family: 'Playfair Display', serif;
+    color: #2f4f2f;
+    font-size: 3rem;
+}
+
+.plant-type{
+    color: #66735f;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.plant-info-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.info-box{
+    background: #f1f5ec;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.info-box h6{
+    color: #6b8e23;
+    font-weight: 600;
+}
+
+.info-box p{
+    margin-bottom: 0;
+    color: #4b5a45;
+}
+
+.tracker-title{
+    font-family: 'Playfair Display', serif;
+    color: #2f4f2f;
+}
+
+.progress{
+    height: 18px;
+    border-radius: 20px;
+    background: #e8efe3;
+}
+
+.progress-bar{
+    background: #6b8e23;
+    border-radius: 20px;
+}
+
+.add-log-btn{
+    background: #556b2f;
+    color: white;
+    border-radius: 14px;
+    padding: 12px 25px;
+    border: none;
+}
+
+.add-log-btn:hover{
+    background: #3f5221;
+    color: white;
+}
+
+.calendar-box{
+    background: #f8fbf5;
+    border-radius: 24px;
+    padding: 25px;
+}
+
+.calendar-legend{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.calendar-legend span{
+    color: #4b5a45;
+    font-size: 0.9rem;
+}
+
+.dot{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.watered-dot,
+.task-dot.watered{
+    background: #4da3ff;
+}
+
+.soil-dot,
+.task-dot.soil{
+    background: #8b5e3c;
+}
+
+.leaves-dot,
+.task-dot.leaves{
+    background: #e6a23c;
+}
+
+.fertilizer-dot,
+.task-dot.fertilizer{
+    background: #4f9d5d;
+}
+
+.sunlight-dot,
+.task-dot.sunlight{
+    background: #c7b45b;
+}
+
+.calendar-grid{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.calendar-days div{
+    text-align: center;
+    font-weight: 600;
+    color: #2f4f2f;
+}
+
+.calendar-cell{
+    background: #ffffff;
+    min-height: 90px;
+    border-radius: 16px;
+    padding: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+.calendar-cell strong{
+    color: #2f4f2f;
+}
+
+.calendar-cell.empty{
+    background: transparent;
+    box-shadow: none;
+}
+
+.task-dots{
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.task-dot{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.reminder-box{
+    background: #f1f5ec;
+    padding: 15px 18px;
+    border-radius: 16px;
+    margin-bottom: 12px;
+    color: #4b5a45;
+}
+
+@media(max-width:768px){
+    .plant-title{
+        font-size: 2.2rem;
+    }
+
+    .plant-info-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .plant-main-image{
+        height: 280px;
+    }
+
+    .calendar-cell{
+        min-height: 70px;
+        padding: 8px;
+    }
+
+    .calendar-grid{
+        gap: 6px;
+    }
+
+    .progress-note{
+    color: #66735f;
+    font-size: 0.95rem;
+}
+}
